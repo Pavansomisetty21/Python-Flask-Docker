@@ -3,13 +3,13 @@
 Build the image using the following command
 
 ```bash
-$ docker build -t .
+docker build -t .
 ```
 
 or
 
 ```bash
-$ docker build -t image_name .
+docker build -t image_name .
 ```
 
 Run the Docker container using the command shown below.
@@ -22,7 +22,7 @@ or
 
 
 ```bash
-$ docker run -d -p 5000:5000 simple-flask-app
+docker run -d -p 5000:5000 simple-flask-app
 ```
 
 The application will be accessible at http:127.0.0.1:5000 the use the ip `http://<host_ip>:5000`
